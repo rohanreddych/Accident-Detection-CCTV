@@ -1,0 +1,6 @@
+            const array1 = ['a', 'b', 'c'];
+            return array1.map((item ) => {
+                return (
+                    <Text key={item}>{item}</Text>
+                )
+            })
